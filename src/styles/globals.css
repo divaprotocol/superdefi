@@ -4,7 +4,9 @@
 
 
 html,
-body,
+body {
+  @apply h-screen relative bg-gradient-to-b from-light-purple to-diva-white dark:bg-dark-diva ;
+}
 #__next {
   height: 100%;
 }
