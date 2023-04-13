@@ -10,7 +10,9 @@ module.exports = {
         'diva-white': '#FFFFFF',
         'diva-purplr': '#6A2DFF',
         'dark-diva':'#242649',
+        'background-gradient':'linear-gradient(180deg, #E1DEFF 0%, #FFFFFF 100%)'
       },
+      
     },
   },
   plugins: [],
