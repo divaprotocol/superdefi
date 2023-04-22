@@ -1,7 +1,8 @@
+import { Text } from "@chakra-ui/react";
 export const Logo = () => {
   return (
-    <span className="font-Inter text-3xl text-dark-diva ">
-      Super<span className="font-bold text-diva-purplr">Defi</span>
-    </span>
+    <Text as="span"  fontSize={'36px'} fontFamily={'Inter'}>
+      Super<Text as="span" fontWeight={'500'} color={'#6A2DFF'} >Defi</Text>
+    </Text>
   );
 };
