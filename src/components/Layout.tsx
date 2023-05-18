@@ -1,10 +1,10 @@
-import React, { ReactElement } from "react";
-import { Box } from "@chakra-ui/react";
+import React, { ReactElement, ReactNode } from "react";
+import { Box, useColorMode, useColorModeValue } from "@chakra-ui/react";
 type props = {
-  children: ReactElement;
+  children: ReactNode;
 };
 const Layout = ({ children }: props) => {
-  return <Box mx="80px">{children}</Box>;
+  return <Box px="80px">{children}</Box>;
 };
 
 export default Layout;
