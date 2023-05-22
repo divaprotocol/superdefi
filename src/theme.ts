@@ -10,6 +10,10 @@ const Button = defineStyleConfig({
   },
   // Four sizes: sm, md, lg, xl
   sizes: {
+    xs: {
+      w: "",
+      h: "",
+    },
     sm: {
       w: "120px",
       h: "60px",
@@ -41,10 +45,9 @@ const Button = defineStyleConfig({
     },
   },
   // The default size and variant values
-  /* defaultProps: {
-    size: "md",
-    variant: "primary",
-  }, */
+  defaultProps: {
+    size: "xs",
+  },
 });
 
 const config: ThemeConfig = {

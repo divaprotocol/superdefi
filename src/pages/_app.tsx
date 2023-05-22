@@ -2,6 +2,7 @@ import { AppProps } from "next/app";
 import { css, Global } from "@emotion/react";
 import { ChakraProvider, useColorModeValue } from "@chakra-ui/react";
 import theme from "../theme";
+import WagmiProvider from "../RainBowKit";
 
 const GlobalStyle = () => {
   const bg = useColorModeValue(
@@ -25,7 +26,9 @@ export default function App({ Component, pageProps }: AppProps) {
     <>
       <ChakraProvider theme={theme}>
         <GlobalStyle />
-        <Component {...pageProps} />
+        <WagmiProvider>
+          <Component {...pageProps} />
+        </WagmiProvider>
       </ChakraProvider>
     </>
   );
