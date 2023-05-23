@@ -1,15 +1,10 @@
-import React from 'react'
-import Header from './Header'
+import React, { ReactElement, ReactNode } from "react";
+import { Box, useColorMode, useColorModeValue } from "@chakra-ui/react";
+type props = {
+  children: ReactNode;
+};
+const Layout = ({ children }: props) => {
+  return <Box px="80px">{children}</Box>;
+};
 
-const Layout = ({children}) => {
-	return (
-		<div>
-			
-			{ children }
-			<Header />
-			
-		</div>
-	)
-}
-
-export default Layout
+export default Layout;
