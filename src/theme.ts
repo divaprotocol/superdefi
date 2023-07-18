@@ -11,8 +11,8 @@ const Button = defineStyleConfig({
   // Four sizes: sm, md, lg, xl
   sizes: {
     xs: {
-      w: "",
-      h: "",
+      w: "72px",
+      h: "32px",
     },
     sm: {
       w: "120px",
@@ -71,6 +71,11 @@ const theme = extendTheme({
     grey: {
       100: "#585F6F",
       200: "#333947",
+    },
+    cyan: {
+      100: "#0156C9",
+      200: "#A7F1E9",
+      500:"#A8D6F0"
     },
   },
   fontSizes: {
