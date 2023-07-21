@@ -75,7 +75,7 @@ const theme = extendTheme({
     cyan: {
       100: "#0156C9",
       200: "#A7F1E9",
-      500:"#A8D6F0"
+      500: "#A8D6F0",
     },
   },
   fontSizes: {
