@@ -14,6 +14,7 @@ import {
 import { HiOutlineDocumentText } from "react-icons/hi";
 import { BsDot } from "react-icons/bs";
 import { FiStar } from "react-icons/fi";
+import { CoinIcon } from "./CoinIcon";
 
 const ProductCard = () => {
   return (
@@ -21,7 +22,7 @@ const ProductCard = () => {
       <CardHeader pb={"5px"}>
         <Stack direction={"row"} justifyContent={"space-around"}>
           <Box w="82px" h="46px">
-            coinIcon
+            <CoinIcon assetName={"ETH"} />
           </Box>
           <Box flexDirection={"row"} alignContent={"center"}>
             <Text fontSize="xl" fontWeight="medium" letterSpacing="wider">
